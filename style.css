@@ -1,0 +1,201 @@
+body{
+    background-image: url("4884841.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Trebuchet MS;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.details{
+    color: orange;
+    display: flexbox;
+    padding: 0;
+    margin: 0;
+}   
+
+.header{
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items:center;
+    justify-content: space-between;
+    
+}    
+
+.threedot{
+   
+    padding-left: 10px;
+    border: none;
+    padding-right: 40px;
+    background-color: transparent;
+    
+}
+
+.threedot:hover{
+    cursor: pointer;
+}
+
+.main{
+   padding-top: 400px;
+   font-size: x-large;
+}
+
+.title,.date,.last-date,.events-header,.image,.para,.event-name{
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.title{
+   font-weight: bolder;
+    font-size: 100px;
+}
+
+.register-button{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+    background-color: cyan;
+    color: black;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.register-button:hover{
+    cursor: pointer;
+}
+
+.events{
+    padding-top: 300px;
+
+}
+
+.events-header{
+  font-size:100px;
+}
+
+.para{
+    background-color: cyan;
+    border-radius: 100px;
+    margin: 25px;
+    color: black;
+    text-align: justify;
+    justify-content:center;
+    font-weight: normal;
+    font-size: large;
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 40px;
+
+}
+
+.guidelines{
+    text-align: left;
+}
+
+.other-buttons{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+}
+
+.contact{
+    text-decoration: none;
+}
+
+.contact-button,.join-button{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: orange;
+    border: none;
+    color : black;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.join-button{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.contact-button,.join-button:hover{
+    cursor: pointer;
+}
+
+.contacts{
+    padding-left: 25px;
+}
+
+.end{
+    text-align: center;
+    color: white;
+}
+
+.links{
+    display: block;
+    padding-bottom: 20px;
+    color: beige;
+    text-align: left;
+    text-decoration: none;
+    font-size: large;
+}
+
+.contact-us{
+    text-align: left;
+    font-weight: normal;
+    padding-bottom: 0;
+    color: orange;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.sliding-window {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: cyan;
+    height: 500px;
+    width: 250px;
+    flex-direction: column;
+    padding-top: 150px;
+    z-index: 1;
+    margin-top: 50px;
+
+}
+
+.contacts{
+  padding-top: 200px;
+}
+
+.sliding-window a {
+    color: black;
+    font-weight: bolder;
+    background-color: orange;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-decoration: none;
+    font-size: 40px;
+    margin-bottom: 15px;
+
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    font-size: 50px;
+    cursor: pointer;
+    color: orange;
+    position: absolute;
+    top: 10px;
+    right:20px;
+}
